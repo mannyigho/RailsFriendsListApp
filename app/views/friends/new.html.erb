@@ -1,0 +1,14 @@
+<br/>
+<div class="card">
+  <div class="card-header">
+    <h4>New Friend</h4>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Enter the required details below!</h5>
+    <p class="card-text">
+    <%= render 'form', friend: @friend %>
+	</p>
+  </div>
+</div>
+<br/>
+<%= link_to 'Back', friends_path, class:"btn btn-primary" %>

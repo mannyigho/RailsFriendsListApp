@@ -1,0 +1,7 @@
+<br/>
+    <h4>Editing Friend</h4>
+    <%= render 'form', friend: @friend %>
+<br/>
+<%= link_to 'Grid', friends_path, class:"btn btn-primary btn-sm" %>
+<%= link_to 'Show', @friend, class:"btn btn-warning btn-sm" %> &nbsp;
+<%= link_to 'Delete', @friend, class:"btn btn-danger btn-sm", method: :delete, data: { confirm: 'Are you sure?' } %> &nbsp; 
